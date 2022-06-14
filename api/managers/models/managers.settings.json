@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "managers",
+  "info": {
+    "name": "managers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "users_permissions_role": {
+      "plugin": "users-permissions",
+      "model": "role"
+    }
+  }
+}

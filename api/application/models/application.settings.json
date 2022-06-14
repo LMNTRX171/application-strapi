@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applications",
+  "info": {
+    "name": "application",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "adress": {
+      "type": "string"
+    },
+    "tarif": {
+      "type": "string"
+    },
+    "internet": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "manager": {
+      "type": "integer"
+    },
+    "state": {
+      "type": "integer"
+    }
+  }
+}
